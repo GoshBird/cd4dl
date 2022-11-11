@@ -16,7 +16,7 @@
     margin: 10px;
 }
 
-#day,#hour,#min,#sec{
+#day,#hour,#min,#sec,#msec{
     color: red;
     font-size:36px;
 }
