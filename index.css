@@ -1,0 +1,30 @@
+
+
+.jigoku-title h1{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.jigoku-timer{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.time-units{
+    font-size: 20px;
+    margin: 10px;
+}
+
+#day,#hour,#min,#sec{
+    color: red;
+    font-size:36px;
+}
+
+.xday-detail{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    color: red;
+    font-size:36px;
+}
