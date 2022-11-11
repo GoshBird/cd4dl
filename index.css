@@ -1,12 +1,48 @@
+*{
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+}
 
+h1{
+    font-size:30px;
+}
+
+.timer-full{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teisyutsu-jigoku{
+    margin: 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 460px;
+    border: solid 15px white;
+}
+
+.happyou-jigoku{
+    margin: 1%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 460px;
+    border: solid 15px white;
+}
 
 .jigoku-title h1{
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
 }
 
-.jigoku-timer{
+.jigoku-timer-inner{
     display: flex;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
     margin-right: auto;
     margin-left: auto;
 }
@@ -16,15 +52,35 @@
     margin: 10px;
 }
 
-#day,#hour,#min,#sec,#msec{
+#tday,#thour,#tmin,#tsec,#tmsec{
     color: red;
     font-size:36px;
 }
 
-.xday-detail{
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
+#hday,#hhour,#hmin,#hsec,#hmsec{
     color: red;
     font-size:36px;
+}
+
+.x-day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.xday-detail{
+    color: red;
+    font-size:36px;
+    margin:0;
+}
+
+@media screen and (max-width: 980px) {
+    .full{
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
