@@ -4,6 +4,7 @@
     font-size: 15px;
     margin: 0px;
     padding: 0px;
+    font-family: 'DotGothic16', sans-serif;
 }
 
 h1{
@@ -17,7 +18,7 @@ h1{
 }
 
 .teisyutsu-jigoku{
-    margin: 1%;
+    margin: 3px;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 460px;
@@ -25,7 +26,7 @@ h1{
 }
 
 .happyou-jigoku{
-    margin: 1%;
+    margin: 3px;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 460px;
@@ -74,6 +75,18 @@ h1{
     color: red;
     font-size:36px;
     margin:0;
+}
+
+.gomi-comment{
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gomi-comment p{
+    text-align: center;
+    font-size:48px;
 }
 
 @media screen and (max-width: 980px) {
