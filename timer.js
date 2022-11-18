@@ -11,7 +11,7 @@ const hmsec = document.getElementById("hmsec");
 
 function tcountdown() {
     const now = new Date(); // 現在時刻を取得
-    const tomorrow = new Date("February 14, 2023 12:00:00 GMT+09:00");
+    const tomorrow = new Date("February 14, 2023 15:00:00 GMT+09:00");
     const diff = tomorrow.getTime() - now.getTime();
 
     // ミリ秒から単位を修正
