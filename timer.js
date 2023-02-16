@@ -48,7 +48,7 @@ function hcountdown() {
     hsec.innerHTML = calcSec < 10 ? '0' + calcSec : calcSec;
     hmsec.innerHTML = calcmSec < 10 ? '0' + calcmSec : calcmSec;
 }
-tcountdown();
+// tcountdown();
 hcountdown();
-setInterval(tcountdown,10);
+// setInterval(tcountdown,10);
 setInterval(hcountdown,10);
