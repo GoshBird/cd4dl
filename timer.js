@@ -11,8 +11,8 @@ const hmsec = document.getElementById("hmsec");
 
 function tcountdown() {
     const now = new Date(); // 現在時刻を取得
-    const tomorrow = new Date("February 14, 2023 15:00:00 GMT+09:00");
-    const diff = tomorrow.getTime() - now.getTime();
+    const xDay = new Date("February 14, 2023 15:00:00 GMT+09:00"); //ここに卒論/修論提出の時間を入力
+    const diff = xDay.getTime() - now.getTime();
 
     // ミリ秒から単位を修正
     const calcDay = Math.floor(diff / 1000 / 60 / 60 / 24);
@@ -31,8 +31,8 @@ function tcountdown() {
 
 function hcountdown() {
     const now = new Date(); // 現在時刻を取得
-    const tomorrow = new Date("February 20, 2023 8:40:00 GMT+09:00");
-    const diff = tomorrow.getTime() - now.getTime();
+    const xDay = new Date("February 20, 2023 8:40:00 GMT+09:00"); //ここに卒論/修論発表の時間を入力
+    const diff = xDay.getTime() - now.getTime();
 
     // ミリ秒から単位を修正
     const calcDay = Math.floor(diff / 1000 / 60 / 60 / 24);
